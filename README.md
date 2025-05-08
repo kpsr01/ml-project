@@ -1,16 +1,20 @@
 # Employee Attrition Prediction & Financial Impact Analysis
 
+> **100% work done by K. Pranav Suhas Reddy**
+
 ## Project Overview
-This Project:
+This project:
 - **Classifies** which employees are at risk of attrition  
 - **Regresses** next-period salary for those predicted to stay  
 - **Calculates** expected salary loss due to churn  
 
+All source code, Jupyter notebook, final report, and dataset are included in this repo.
+
 ## Data
-- **Source:** IBM HR Analytics Employee Attrition CSV  
+- **Dataset (included):** `/WA_Fn-UseC_-HR-Employee-Attrition.csv`  
 - **Size:** 1,470 rows × 35 columns  
-- **Target (classification):** `Attrition` (Yes → 1, No → 0)  
-- **Target (regression):** Simulated `FutureSalary` based on current income and performance rating  
+- **Classification target:** `Attrition` (Yes → 1, No → 0)  
+- **Regression target:** Simulated `FutureSalary` based on current income & performance rating  
 - **Dropped columns:** `EmployeeCount`, `EmployeeNumber`, `Over18`, `StandardHours`
 
 ## Models
